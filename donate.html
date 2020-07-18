@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UniteUS: Donate</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1>UniteUS</h1>
+<h4>Attaining Cultural Education and Community Consolidation</h4>
+
+<nav>
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./statues.html">Commemorative Statues</a></li>
+    <li><a href="./people.html">A Person a Day</a></li>
+    <li><a href="./petitions.html">Petitions</a></li>
+    <li><a href="./donate.html">Donate</a></li>
+  </ul>
+</nav>
+
+<section class="donate">
+  <h3>Donate</h3>
+  <p>Your donation will directly contribute to the removal of socially unacceptable statues from public locations, and will help to replace these outdated monuments with modern commemorative statues honoring individuals from different and diverse backgrounds.</p>
+
+  <h4>Who is represented?</h4>
+  <p>People of varying races, ethnicities, gender identities, sexualities, religious affiliations, and other cultural characteristics will be represented by these statues.
+  <br><br>
+</section>
+
+<form class="form">
+  <span>Full Name*</span><br>
+  <input type="text" name="full-name" id="full-name" placeholder="Enter your name here." required>
+  <br><br>
+
+  <span>Email</span><br>
+  <input type="text" name="email" id="email" placeholder="Enter your email here.">
+  <br><br>
+
+  <span>Phone Number</span><br>
+  <input type="number" name="number" id="number" placeholder="Phone number here.">
+  <br><br>
+
+  <span>Donation Amount*</span><br>
+  <label for="5">$5</label>
+  <input type="radio" name="donation" id="5" value="5" required>
+  <label for="10">$10</label>
+  <input type="radio" name="donation" id="10" value="10">
+  <label for="20">$20</label>
+  <input type="radio" name="donation" id="20" value="20">
+  <label for="35">$35</label>
+  <input type="radio" name="donation" id="35" value="35">
+  <label for="50">$50</label>
+  <input type="radio" name="donation" id="50" value="50">
+  <label for="100">$100</label>
+  <input type="radio" name="donation" id="100" value="100">
+  <br><br>
+
+  <span>Card Number*</span><br>
+  <input type="text" name="cardnumber" id="cardnumber" placeholder="Card number here." minlength="16" maxlength="16" pattern="([0-9]{3})">
+  <br><br>
+
+  <span>Security Code*</span><br>
+  <input type="text" required minlength="3" maxlength="3" pattern="([0-9]{3})" placeholder="CVV">
+  <br><br>
+
+  <span>Additional requests or comments.</span><br>
+  <textarea rows="5" cols="30" placeholder="Enter information here."></textarea>
+  <br><br>
+
+  <input type="submit">
+
+</form>
+
+</body>
+</html>
