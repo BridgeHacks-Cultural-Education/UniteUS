@@ -27,11 +27,29 @@ li a:hover {
   Background-color: #101010;
 }
 
-.introduction, .donate {
+.introduction, .donate, .feature, .petitions-intro {
   text-align: center;
+  font-family: Georgia, serif;
+}
+
+.petitions {
   font-family: Georgia, serif;
 }
 
 .form {
   text-align: center;
+  overflow: auto;
+  line-height: 20px;
+}
+
+#donate {
+  width: 60%;
+  height: 90vh;
+  margin: auto;
+  background-color: #dee0e3;
+  border-radius: 30px;
+}
+
+#extra-info {
+  font-size: 12px;
 }
