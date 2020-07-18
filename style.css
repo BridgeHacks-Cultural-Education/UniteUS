@@ -1,9 +1,15 @@
-h1, h4 {
+h1 {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px 2px gray, 0 0 0.005em gray;
+}
+
+h4 {
   color: black;
   text-align: center;
 }
 
-ul {
+ul#links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,11 +17,11 @@ ul {
   background-color: #2e2e2e;
 }
 
-li {
+li#links {
   float: left;
 }
 
-li a {
+li#links a {
   display: block;
   text-decoration: none;
   color: white;
@@ -23,16 +29,12 @@ li a {
   padding: 16px;
 }
 
-li a:hover {
-  Background-color: #101010;
+li#links a:hover {
+  background-color: #101010;
 }
 
-.introduction, .donate, .feature, .petitions-intro {
+.introduction, .donate, .feature, .petitions-intro, .petitions {
   text-align: center;
-  font-family: Georgia, serif;
-}
-
-.petitions {
   font-family: Georgia, serif;
 }
 
@@ -52,4 +54,38 @@ li a:hover {
 
 #extra-info {
   font-size: 12px;
+}
+
+ul#cities {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dee0e3;
+  line-height: 15px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  display: block;
+}
+
+li#cities a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+li#cities a:hover {
+  background-color: #bdbebf;
+  color: white;
+}
+
+#shadow {
+  text-shadow: 1px 1px 2px gray, 0 0 0.005em gray;
 }
