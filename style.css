@@ -1,11 +1,11 @@
 h1 {
-  color: white;
+  color: black;
   text-align: center;
   text-shadow: 1px 1px 2px gray, 0 0 0.005em gray;
 }
 
 h4 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@ ul#links {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #2e2e2e;
 }
 
 li#links {
@@ -36,6 +36,7 @@ li#links a:hover {
 .introduction, .donate, .feature, .petitions-intro, .petitions {
   text-align: center;
   font-family: Georgia, serif;
+  color: black;
 }
 
 .form {
@@ -96,4 +97,33 @@ li#cities a:hover {
   background-color: #dee0e3;
   border-radius: 30px;
   box-shadow: 5px 5px gray;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.aligncenter img {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.feature {
+  border-style: solid;
+  border-width: 3px;
+  background-color: #d65e5e;
+  width: 75%;
+  display: inline-block;
+}
+
+.references {
+  text-align: center;
+}
+
+.centerfeature {
+  text-align: center;
+}
+
+#whiteshadow {
+  text-shadow: 2px 2px 3px white, 0 0 0.1em white;
 }
