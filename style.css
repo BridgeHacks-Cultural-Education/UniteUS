@@ -127,3 +127,21 @@ li#cities a:hover {
 #whiteshadow {
   text-shadow: 2px 2px 3px white, 0 0 0.1em white;
 }
+
+.row {
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  display: inline-block;
+}
+
+div.middle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em
+}
