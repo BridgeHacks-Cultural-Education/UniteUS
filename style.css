@@ -33,7 +33,7 @@ li#links a:hover {
   background-color: #525252;
 }
 
-.introduction, .donate, .feature, .petitions-intro, .petitions {
+.introduction, .donate, .feature, .petitions-intro, .petitions, .description {
   text-align: center;
   font-family: Georgia, serif;
   color: black;
@@ -144,4 +144,23 @@ div.middle {
   margin-left: auto;
   margin-right: auto;
   width: 25em
+}
+
+.picture-parent { 
+  text-align:center; 
+}
+
+.picture { 
+  display: inline-block; 
+  margin: 0 15px; 
+}
+
+#round {
+  border-radius: 50%;
+  box-shadow: 5px 5px 6px gray, 0 0 0.2em gray;
+}
+
+.width {
+  width: 75%;
+  margin: auto;
 }
