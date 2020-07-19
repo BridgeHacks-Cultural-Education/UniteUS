@@ -164,3 +164,58 @@ div.middle {
   width: 75%;
   margin: auto;
 }
+
+#global {
+  text-align: center;
+  font-family: Georgia, serif;
+  width: 45%;
+  height: 750px;
+  margin: auto;
+  background-image: linear-gradient(rgba(107,151,219), rgba(0,43,110));
+  border-radius: 30px;
+  box-shadow: 5px 5px #001363;
+  color: white;
+  text-shadow: 3px 3px 4px black, 0 0 0.1em black;
+  float: left;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+#smaller {
+  font-size: 12px;
+}
+
+.width2 {
+  width: 85%;
+  margin: auto;
+}
+
+#special-shadow {
+  text-shadow: 3px 3px 4px black, 0 0 0.1em black;
+}
+
+#global2 {
+  text-align: center;
+  font-family: Georgia, serif;
+  width: 45%;
+  height: 750px;
+  margin: auto;
+  background-image: linear-gradient(rgba(107,151,219), rgba(0,43,110));
+  border-radius: 30px;
+  box-shadow: 5px 5px #001363;
+  color: white;
+  text-shadow: 3px 3px 4px black, 0 0 0.1em black;
+  float: right;
+  margin-right: 3%;
+  display: inline-block;
+}
+
+#large {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.large {
+  font-weight: bold;
+  font-size: 18px;
+}
